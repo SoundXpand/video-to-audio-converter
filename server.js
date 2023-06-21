@@ -7,7 +7,7 @@ const fs = require('fs');
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
-const outputDirectory = path.join(__dirname, '/opt/render/project/src/output/');
+const outputDirectory = path.join(__dirname, 'output/');
 
 app.use(express.static('public'));
 
